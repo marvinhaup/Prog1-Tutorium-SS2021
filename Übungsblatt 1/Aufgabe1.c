@@ -3,8 +3,7 @@
  
 int main()
 {
-    float zahl1;
-    float zahl2;
+    float zahl1, zahl2;
     float erg; //int statt float
  
     printf("Geben Sie die erste Zahl ein: "); //Anführungszeichen

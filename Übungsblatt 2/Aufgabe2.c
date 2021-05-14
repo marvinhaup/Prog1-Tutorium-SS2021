@@ -25,9 +25,9 @@ int main()
 
 
     // Berechnung der GesamtNote
-    gesamtNote = (-(1/20) * gesamtzahlGewichtet) + 6;
+    gesamtNote = (-gesamtzahlGewichtet/20) + 6;
 
-    printf(" %d %d %d %d", a, b, c, gesamtzahlGewichtet);
+    printf(" %d %d %d %f", a, b, c, gesamtzahlGewichtet);
     // Ausgabe der Gesamtnote auf der Konsole 
     printf("\nDie Gesamtnote betraegt: %.1f ", gesamtNote);
 

@@ -5,7 +5,7 @@
 
 int main() {
 
-    // Variablen
+    // Variablen als float deklarieren aber nicht initialiesieren
     float a, b, c;
     
     printf("Geben Sie die Länge der Kathete a ein: ");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
- 
+
 int main() {
  
     // Deklarieren und Initialisieren der benötigten Variablen
@@ -34,7 +34,6 @@ int main() {
     printf("Es werden %f Kisten benötigt\n", kistenZweiteParty);
     // aufgerundete Ausgabe -> zu int konvertiert
     printf("Es werden %d Kisten benötigt", kistenZweitePartyInt);
- 
  
     return 0;
 }

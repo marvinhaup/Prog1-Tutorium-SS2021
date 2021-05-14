@@ -2,7 +2,6 @@
 #include <math.h>
 
 
-
 int main() {
 
     // Variablen als float deklarieren aber nicht initialiesieren
@@ -22,6 +21,6 @@ int main() {
     c = sqrt( (pow(a, 2)) + (pow(b, 2)) );
 
     printf("Die Länge der Hypotenuse ist: %.2f", c);
-
+ 
     return 0;
 }

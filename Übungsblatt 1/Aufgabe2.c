@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+
 int main() {
  
     // Deklarieren und Initialisieren der benötigten Variablen
@@ -31,7 +31,6 @@ int main() {
     // genaue Ausgabe als float
  
     printf("Der Anhalteweg ist gleich: %.2f", anhalteweg);
- 
- 
+    
     return 0;
 }

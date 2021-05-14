@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+
 int main()
 {
     float zahl1, zahl2;
@@ -14,6 +14,6 @@ int main()
     erg = zahl1 * zahl2;
  
     printf("Ergebnis: %.2f", erg); //Zur Ausgabe wird printf() benötigt
- 
+    
     return 0;
 }

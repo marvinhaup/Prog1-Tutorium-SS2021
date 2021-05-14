@@ -5,13 +5,19 @@
 
 int main() {
 
+    // Variablen
     float a, b, c;
-
+    
     printf("Geben Sie die Länge der Kathete a ein: ");
     scanf("%f", &a);
 
     printf("Geben Sie die Länge der Kathete b ein: ");
     scanf("%f", &b);
+    
+    /*
+    printf("Geben Sie die Länge von A und B nach folgendem Muster (A,B) ein: ");
+    scanf("%f,%f", &a, &b);
+    */
 
     c = sqrt( (pow(a, 2)) + (pow(b, 2)) );
 

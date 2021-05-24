@@ -2,29 +2,34 @@
 #include <stdlib.h>
 
 int main()
-{
-    int iq;
+{   
+    // Variablen anlegen
+    int iq; // kein initialwert notwendig, da die Variable überschrieben wird
 
-    printf("Geben Sie ihre IQ-Score ein");
+    // Nutzerabfrage über die Konsole
+    printf("\nGeben Sie ihre IQ-Score ein: ");
     scanf("%d", &iq);
     
-    if( iq < 85){
+    //Entscheidungsbaum
+    if( iq < 85){           // Erste Ebene der If-Verzweigung
         printf("\nDer IQ-Wert liegt unter dem Durchschnitt.");
     }
-    else if( iq <= 115){
-        printf("\n liegt im Normalbereich");
-        if( iq < 105){
-            printf("im normalen Durchschnitt");    
-        else{
-            printf("leicht über dem Durchschnitt");
+    else if( iq <= 115){    // Erste Ebene der If-Verzweigung
+        printf("\nDer IQ-Wert liegt im Normalbereich, ");
+        if( iq <= 105){      // Zweite Ebene der If-Verzweigung
+            printf("im Durchschnitt.");   
+        } 
+        else{               // Zweite Ebene der If-Verzweigung
+            printf("leicht ueber dem Durchschnitt.");
         }
     }
-    else{
-        if( iq < 130){
-            printf("überdurchschnittlich");
+    else{                   // Erste Ebene der If-Verzweigung
+        printf("\nDer IQ-Wert liegt ueber dem Normalbereich und ist ");
+        if( iq <= 130){      // Zweite Ebene der If-Verzweigung
+            printf("den begabten zuzuordnen.");
         }
-        else{
-            printf("hochintelligent");
+        else{               // Zweite Ebene der If-Verzweigung
+            printf("den hochbegabten zuzuordnen.");
         }
     }
 

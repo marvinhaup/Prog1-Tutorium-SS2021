@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623672108 source:c:\users\marvin\onedrive\programmierübungen\github\prog1-tutorium-ss2021\Übungsblatt 1\übung5aufgabe2\main.c
+	<stdio.h>
+	<stdlib.h>
+

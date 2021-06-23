@@ -1,3 +1,4 @@
 # kompilierte .exe dateien ignorieren 
 #(* heißt, dass alle Dateien, egal wie sie heißen ignoriert werden)
 *.exe
+*.o

@@ -40,6 +40,7 @@ void printArrayResult(s_arrayResult erg){
 
 
 // Fehler in Teilaufgabe f)
+/*
 
 int main(){
     int[] testArray = {-2; 5; 7; 1; 9};
@@ -48,7 +49,7 @@ int main(){
 
     return 0;
 }
-/*
+
  Fehler 1:
 
     1. eckige Klammer hinter dem Variablennamen,nicht hinter int

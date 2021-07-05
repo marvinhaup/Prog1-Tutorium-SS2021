@@ -5,9 +5,10 @@ typedef struct {
     int summe;
     float durchschnitt;
     int max;
-}s_arrayResult;
+} s_arrayResult;
 
 s_arrayResult calcSumMeanMax(int[], int);
+
 void printArrayResult(s_arrayResult);
 
 int main()
@@ -19,15 +20,15 @@ int main()
 }
 
 s_arrayResult calcSumMeanMax(int arr[], int len){
-    s_arrayResult erg = {0,0.0,-20000000};
-
+    s_arrayResult erg = {0,0.0,0};
+    erg.max = arr[0];
     for(int i = 0; i < len; i++){
         erg.summe = erg.summe + arr[i];
         if(erg.max < arr[i]){
             erg.max = arr[i];
         }
     }
-    erg.durchschnitt = erg.summe / len;
+    erg.durchschnitt = (float)erg.summe / len;
     return erg;
 }
 

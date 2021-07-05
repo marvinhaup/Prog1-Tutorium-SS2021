@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 typedef struct {
     int summe;
     float durchschnitt;
     int max;
 }s_arrayResult;
 
-
 s_arrayResult calcSumMeanMax(int[], int);
 void printArrayResult(s_arrayResult);
-
 
 int main()
 {
@@ -38,10 +35,8 @@ void printArrayResult(s_arrayResult erg){
     printf("Summe:\t\t%d\nDurchschnitt:\t%.2f\nMax:\t\t%d\n", erg.summe, erg.durchschnitt, erg.max);
 }
 
-
 // Fehler in Teilaufgabe f)
 /*
-
 int main(){
     int[] testArray = {-2; 5; 7; 1; 9};
     erg = calcSumMeanMax(testArray);

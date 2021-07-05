@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 typedef struct {
     char name[50];
     int alter;
 } Person;
-
 
 Person createPerson();
 void printPerson(Person);

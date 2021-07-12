@@ -1,0 +1,5 @@
+Zeile: 10 Fehler: Kaufmanns-und beim Einlesen vergessen
+Zeile: 11 Fehler: eckige Klammern hinter arr vergessen
+Zeile: 13 Fehler: == als Vergleichsoperator anstatt =
+Zeile: 16 Fehler: es muss ein else-if anstatt else sein
+Zeile: 20 Fehler: Variable erg ist nicht deklariert
